@@ -7,17 +7,16 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
-
+import SnapKit
+class ViewController: BaseViewController {
+    
+    var topConstraint: Constraint?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        view.backgroundColor = .white
-        print("\(type(of: self))")
     }
-
-
+    
+    
 }
 
